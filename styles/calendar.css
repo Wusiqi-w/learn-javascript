@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    display: block;
+    float: left;
+    width: 25%;
+    border: 2px solid white;
+    padding: 5px;
+    height: 80px;
+    background-color: pink;
+    color: white;
+}
