@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clear canvas</title>
+    <link href="styles/canvas-drawing-app.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="toolbar">
+        <input type="color" aria-label="select pen color"/>
+        <input type="range" min="2" max="50" value="30" aria-label="select pen size"><span class="output">30</span>
+        <button>Clear canvas</button>
+    </div>
+
+    <canvas class="myCanvas">
+        <p>Add suitable fallback here.</p>
+    </canvas>
+
+
+    <script src="scripts/canvas-drawing-app.js" type="text/javascript"></script>
+</body>
+</html>
